@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Eventos</title>
+</head>
+<body>
+    <div class="container">
+        
+        <h1>Eventos en Javascript: Interactuando con usuarios</h1>
+    
+        <input type="text" id="valor_1" class="input" placeholder="introdusca un valor">
+
+        <input type="text" id="valor_2" class="input" placeholder="introdusca otro valor">
+    
+        <p id="resultado"></p>
+
+        <!-- una manera de escuchar los eventos desde el html es poniendole dentro de la eiqueta y pasarle la funcion que queremos que realice cuando suceda el evento, por ejemplo podemos poner le evento onclik en el boton. Pero no es la mejor opcion. Lo correcto es generar una funcion en el archivo de javascript y ser llamada desde aca.-->
+        <button id="btn_calcular" onclick="btnOnclick()" >Has Clik Aqui</button>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="eventos.js"></script>
+    <script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js "></script> 
+</body>
+</html>
